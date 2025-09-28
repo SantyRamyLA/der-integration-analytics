@@ -1,156 +1,115 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Distributed Energy Resource (DER) Integration Analytics
 
-# C extensions
-*.so
+A comprehensive grid decarbonization enablement platform showcasing advanced forecasting and optimization for EV and solar penetration in distribution networks.
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+## Features
 
-# PyInstaller
-*.manifest
-*.spec
+- **Smart Grid Analytics**: Real-time telemetry from smart meters, EV chargers, and solar inverters
+- **DER Hotspot Identification**: Machine learning clustering for adoption pattern analysis
+- **Load Forecasting**: Prophet + XGBoost models for demand prediction
+- **Constraint Planning**: Pyomo optimization for circuit reinforcement planning
+- **Interactive Dashboards**: Power BI-style visualizations for operational insights
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+## Prerequisites
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
+- Python 3.8+
+- pip package manager
 
-# Translations
-*.mo
-*.pot
+## Key Analytics Features
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+### DER Hotspot Analysis
+- K-means clustering for adoption patterns
+- Geographic concentration mapping
+- Infrastructure impact assessment
+- Investment priority ranking
 
-# Flask stuff:
-instance/
-.webassets-cache
+### Adoption Forecasting
+- Multi-scenario growth projections
+- Technology penetration modeling
+- Grid impact quantification
+- Investment timeline planning
 
-# Scrapy stuff:
-.scrapy
+### Load Impact Analysis
+- Hourly demand profile analysis
+- Net load impact calculation
+- Peak demand management
+- Grid stability assessment
 
-# Sphinx documentation
-docs/_build/
+### Constraint Planning
+- Feeder capacity analysis
+- Overload risk identification
+- Reinforcement optimization
+- Cost-benefit analysis
 
-# PyBuilder
-target/
+## Use Cases
 
-# Jupyter Notebook
-.ipynb_checkpoints
+### For Utility Operations
+- **Grid Modernization**: Enable higher DER penetration safely
+- **Investment Optimization**: Prioritize infrastructure upgrades
+- **Operational Efficiency**: Optimize load distribution
+- **Customer Satisfaction**: Reduce outages and improve reliability
 
-# IPython
-profile_default/
-ipython_config.py
+### For Grid Planners
+- **Capacity Planning**: Forecast DER growth impacts
+- **System Optimization**: Balance supply and demand
+- **Infrastructure Investment**: Plan grid reinforcements
+- **Performance Monitoring**: Track DER integration success
 
-# pyenv
-.python-version
+### For Energy Analysts
+- **Market Analysis**: DER adoption trend analysis
+- **Technology Assessment**: Compare EV vs solar impacts
+- **Policy Planning**: Support renewable energy goals
+- **Research & Development**: Advanced grid analytics
 
-# pipenv
-#Pipfile.lock
+## Sample Analytics Output
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
+The application generates comprehensive DER integration metrics:
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+- **500+ EV Chargers**: Real-time charging station monitoring
+- **1,000+ Solar Systems**: Connected inverter telemetry
+- **50 Distribution Feeders**: Capacity and constraint analysis
+- **Multi-Scenario Forecasting**: Conservative, Moderate, Aggressive growth projections
+- **Geographic Clustering**: Hotspot identification for targeted investments
 
-# SageMath parsed files
-*.sage.py
+## Future Enhancements
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+- Real-time optimization algorithms
+- Advanced machine learning models
+- Automated dispatch systems
+- Grid-edge device integration
+- Blockchain energy trading
 
-# Spyder project settings
-.spyderproject
-.spyproject
+## Configuration
 
-# Rope project settings
-.ropeproject
+The application supports several configuration options through the sidebar:
 
-# mkdocs documentation
-/site
+- **Adoption Scenarios**: Conservative, Moderate, Aggressive growth
+- **Time Horizons**: 1-10 year forecasting periods
+- **Constraint Thresholds**: Customizable capacity limits
+- **Geographic Filters**: Service area segmentation
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+## Enterprise Integration
 
-# Pyre type checker
-.pyre/
+This demonstration showcases capabilities for enterprise utility deployment:
 
-# Streamlit
-.streamlit/
+### Databricks Integration
+- Delta Lake pipeline for smart meter data
+- Real-time EV charger telemetry processing
+- Solar inverter data analytics
+- Advanced forecasting model deployment
 
-# MacOS
-.DS_Store
+### Data Pipeline Architecture
+```
+Smart Meters → Databricks Delta Lake → Prophet/XGBoost Models → 
+Pyomo Optimization → Power BI Dashboards → Operational Insights
+```
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+### API Endpoints (Production Ready)
+- RESTful DER data queries
+- Real-time load forecasting
+- Constraint analysis automation
+- Investment planning optimization
 
-# Data files
-*.csv
-*.json
-*.xlsx
-*.parquet
+---
 
-# API keys and secrets
-.env.local
-.env.production
-config.ini
-secrets.json
-
-# Model files
-*.pkl
-*.joblib
-*.h5
-*.pb
-
-# Logs
-logs/
-*.log
+**Built for sustainable energy integration and grid decarbonization**
